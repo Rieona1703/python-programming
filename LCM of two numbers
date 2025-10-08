@@ -1,0 +1,11 @@
+a = int(input("Enter first number:\n "))
+b = int(input("Enter second number:\n"))
+
+greater = max(a, b)
+while True:
+    if greater % a == 0 and greater % b == 0:
+        lcm = greater
+        break
+    greater += 1
+
+print("The LCM of", a, "and", b, "is:", lcm)
