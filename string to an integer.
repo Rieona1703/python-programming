@@ -1,0 +1,5 @@
+str_num="1234"
+integer_num=int(str_num)
+print("string:",str_num)
+print("interger:",integer_num)
+print("type after conversion:",type(integer_num))
