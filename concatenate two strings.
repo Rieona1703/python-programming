@@ -1,0 +1,4 @@
+str1=input("enter the 1st string:\n")
+str2=input("enter the 2nd string:\n")
+concatenated_str=str1+str2
+print("concatenated string:",concatenated_str)
