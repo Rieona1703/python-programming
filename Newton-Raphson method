@@ -1,0 +1,11 @@
+x = float(input("Enter a number: "))
+guess = x / 2
+tolerance = 0.000001
+
+while True:
+    new_guess = 0.5 * (guess + x / guess)
+    if abs(new_guess - guess) < tolerance:
+        break
+    guess = new_guess
+
+print("The square root of", x, "is approximately:", new_guess)
