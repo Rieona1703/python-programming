@@ -1,0 +1,7 @@
+lst = list(map(int, input("Enter elements of the list separated by spaces: \n").split()))
+unique_lst = list(set(lst))
+unique_lst.sort()
+if len(unique_lst) >= 2:
+    print("The second largest element is:", unique_lst[-2])
+else:
+    print("There is no second largest element.")
