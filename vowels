@@ -1,0 +1,5 @@
+string = input("Enter a string: ").lower()
+vowels = 'aeiou'
+vowel_counts = list(map(lambda c: 1 if c in vowels else 0, string))
+
+print("Number of vowels in the string:", sum(vowel_counts))
